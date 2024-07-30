@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-around;
+}
+
+#card-animation{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-around;
+    overflow-X: hidden;
+    row-gap: 30px;
+}
+
+.cr7-img{
+    height: 70vh;
+    margin-top: 10vh;
+}
+
+.cr7{
+    height: 80vh;
+}
+
+.play {
+    color: rgb(255, 255, 255);
+    background-color: rgb(46, 66, 252);
+    height: 50px;
+    width: 120px;
+    border-radius: 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+
+#scroll-animation{
+    height: 400vh;
+    width: 98.8vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+#first, #second, #third, #fourth, #fifth{
+    height: 100vh;
+    width: 98.8vw;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#first{
+    background-color: rgb(204, 0, 0);
+    z-index: 1;
+}
+
+#second{
+    background-color: blueviolet;
+    z-index: 2;
+}
+
+#third{
+    background-color: aqua;
+    z-index: 3;
+}
+
+#fourth{
+    background-color:green;
+    z-index: 4;
+}
+
+#fifth{
+    background-color: #b10f0f;
+    z-index: 5;
+}
+
